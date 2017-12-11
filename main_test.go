@@ -20,3 +20,9 @@ func TestMultiplicacao(t *testing.T) {
 		t.Error("Resultado diferente do esperado")
 	}
 }
+func TestDivisao(t *testing.T) {
+	n := Divisao(10, 2)
+	if n != 5 {
+		t.Error("Resultado diferente do esperado")
+	}
+}
